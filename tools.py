@@ -39,6 +39,10 @@ def next_script():
 
 # Pindah ke direktori yang baru dibuat setelah git clone
     subprocess.run(["cd", "tyt"])
+    
+def next_script():
+    # Jalankan skrip selanjutnya dengan subprocess
+    subprocess.run(["pip", "install -r requirement.txt"])
 
 def next_script():
     # Jalankan skrip selanjutnya dengan subprocess
