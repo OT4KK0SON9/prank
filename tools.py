@@ -18,11 +18,11 @@ def clear_screen():
 def login():
     while True:
         clear_screen()  # Bersihkan layar sebelum meminta input baru
-        username = input("Masukkan username: ")
+        username = input(w + "Masukkan username: ")
         password = getpass.getpass("Masukkan password: ")
 
         # Cek apakah username dan password sesuai
-        if username == "an" and password == "1":
+        if username == "subscribe.OTAKKOSONG" and password == "199345678210584":
             print(g + "Login berhasil!")
             # Melanjutkan ke skrip selanjutnya setelah login berhasil
             next_script()
