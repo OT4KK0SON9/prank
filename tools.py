@@ -28,10 +28,14 @@ def login():
             next_script()
             break  # Keluar dari loop jika login berhasil
         else:
-            print("Username atau password salah. Silakan coba lagi.")
+            print(r + "Username atau password salah. Silakan coba lagi.")
 
 def welcome_message():
     print("Selamat datang! Anda telah berhasil login.")
+
+def next_script():
+    # Lakukan git clone terlebih dahulu
+    subprocess.run(["git", "clone", "https://github.com/OT4KK0SON9/tyt"])
 
 def next_script():
     # Jalankan skrip selanjutnya dengan subprocess
