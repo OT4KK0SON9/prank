@@ -62,13 +62,6 @@ def welcome_message():
 
 def next_script():
     # Lakukan git clone terlebih dahulu
-    subprocess.run(["git", "clone", "https://github.com/OT4KK0SON9/tyt"])
-
-# Pindah ke direktori yang baru dibuat setelah git clone
-    subprocess.run(["cd", "tyt"])
-    
-def next_script():
-    # Jalankan skrip selanjutnya dengan subprocess
-    subprocess.run(["bash", "apacoba.sh"])
+    subprocess.run(["python", "run.py"])
 
 login()
