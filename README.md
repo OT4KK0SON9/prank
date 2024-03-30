@@ -6,7 +6,7 @@ pkg install toilet
 
 
 pkg install git
-
+# 1
 git clone https://github.com/OT4KK0SON9/tyt
 
 
@@ -17,7 +17,7 @@ cd tyt
 pip install -r requirement.txt
 
 cd
-
+# 2
 git clone https://github.com/OT4KK0SON9/toolsv1
 
 
