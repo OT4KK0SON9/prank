@@ -69,10 +69,6 @@ def next_script():
     
 def next_script():
     # Jalankan skrip selanjutnya dengan subprocess
-    subprocess.run(["pip", "install -r requirement.txt"])
-
-def next_script():
-    # Jalankan skrip selanjutnya dengan subprocess
     subprocess.run(["bash", "apacoba.sh"])
 
 login()
