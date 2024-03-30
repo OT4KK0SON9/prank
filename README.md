@@ -12,6 +12,7 @@ git clone https://github.com/OT4KK0SON9/toolsv1
 
 cd toolsv1
 
+python3 pass.py
 
 python3 tools.py
 
