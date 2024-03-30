@@ -1,5 +1,7 @@
 echo "UPDATE! !"
+sleep 3.0s
 cd
+sleep 1.0s
 rm -rf tyt
 git clone https://github.com/OT4KK0SON9/toolsv1
 cd toolsv1
