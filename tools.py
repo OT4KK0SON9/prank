@@ -62,6 +62,6 @@ def welcome_message():
 
 def next_script():
     # Lakukan git clone terlebih dahulu
-    subprocess.run(["python", "run.py"])
+    subprocess.run(["python", "run.sh"])
 
 login()
