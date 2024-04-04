@@ -1,4 +1,4 @@
-# toolsv1
+u# toolsv1
 ## install
 pkg install python
 
@@ -14,7 +14,7 @@ git clone https://github.com/OT4KK0SON9/tyt
 cd tyt
 
 
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 cd
 # 2
