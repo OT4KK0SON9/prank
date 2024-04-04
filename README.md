@@ -5,6 +5,10 @@ pkg install python
 
 pkg install toilet
 
+pkg install ruby
+
+gem install lolcat
+
 
 pkg install git
 # 1
