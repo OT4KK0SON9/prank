@@ -1,4 +1,5 @@
 ### toolsv1
+untuk username dan password liat di issue
 ## install
 pkg install python
 
